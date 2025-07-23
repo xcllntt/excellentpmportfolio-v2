@@ -113,8 +113,10 @@ const Hero = () => {
                     Sharp with data, obsessed with users, always shipping. 🚀
                   </p>
                   <div className="flex items-center gap-2 text-coral font-semibold">
-                    <span>Explore my work</span>
-                    <ArrowRight className="w-4 h-4" />
+                    <a href="#work" className="flex items-center gap-2 text-coral font-semibold hover:underline focus:outline-none">
+                      <span>Explore my work</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </a>
                   </div>
                 </div>
               </div>
