@@ -109,8 +109,8 @@ const Hero = () => {
                   </div>
                   <h3 className="text-heading-3 text-primary">Build → Ship → Repeat</h3>
                   <p className="text-body text-secondary">
-                    "Skilled in turning ideas into products, and products into results. 
-                    Sharp with data, obsessed with users, always shipping. 🚀"
+                    Skilled in turning ideas into products, and products into results. 
+                    Sharp with data, obsessed with users, always shipping. 🚀
                   </p>
                   <div className="flex items-center gap-2 text-coral font-semibold">
                     <span>Explore my work</span>
