@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-1/3 right-1/4 w-12 h-12 bg-gradient-mixed rounded-full opacity-15 animate-float" style={{ animationDelay: '4s' }} />
       
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-[1.3fr_0.7fr] gap-14 items-center">
           {/* Content */}
           <div className="space-y-6 animate-fade-in-up">
             <div className="space-y-6">
