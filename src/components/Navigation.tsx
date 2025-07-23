@@ -16,8 +16,7 @@ const Navigation = () => {
   const navItems = [
     { name: "Work", href: "#work" },
     { name: "Articles", href: "#articles" },
-    { name: "Skills", href: "#skills" },
-    { name: "Contact", href: "#contact" }
+    { name: "Skills", href: "#skills" }
   ];
 
   return (
@@ -52,12 +51,6 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-            <a 
-              href="#contact"
-              className="btn-coral"
-            >
-              Let's Talk
-            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -83,13 +76,6 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <a 
-                href="#contact"
-                onClick={() => setIsOpen(false)}
-                className="block btn-coral w-fit"
-              >
-                Let's Talk
-              </a>
             </div>
           </div>
         )}
