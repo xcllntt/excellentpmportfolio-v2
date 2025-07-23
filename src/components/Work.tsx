@@ -30,7 +30,7 @@ const workExperience = [
   },
   {
     title: "FutaOrders",
-    role: ,
+    role: " ",
     description: "Collaborated towards building FutaOrders, an e-commerce product that helped business owners in FUTA sell more efficiently.",
     icon: ShoppingCart,
     color: "coral",
