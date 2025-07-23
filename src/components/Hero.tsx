@@ -107,7 +107,7 @@ const Hero = () => {
                     <div className="w-3 h-3 bg-gradient-blue rounded-full" />
                     <div className="w-3 h-3 bg-gradient-mixed rounded-full" />
                   </div>
-                  <h3 className="text-heading-3 text-primary">Product Philosophy</h3>
+                  <h3 className="text-heading-3 text-primary">Build → Ship → Repeat</h3>
                   <p className="text-body text-secondary">
                     "Skilled in turning ideas into products, and products into results. 
                     Sharp with data, obsessed with users, always shipping. 🚀"
