@@ -30,11 +30,11 @@ const Hero = () => {
                   className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover border-4 border-coral/20 shadow-coral flex-shrink-0"
                 />
                 <div>
-                  <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-2">Excellent Kayode-Folorunsho</h2>
+                  <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-primary mb-2">Excellent Kayode-Folorunsho</h2>
                   <p className="text-subheading text-coral">Product Manager & Builder</p>
                 </div>
               </div>
-              <h1 className="text-display text-primary">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl text-primary">
                 Building products that solve
                 <span className="text-gradient-mixed"> real-world problems</span>
               </h1>
