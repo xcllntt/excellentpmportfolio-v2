@@ -48,15 +48,18 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 pt-2">
               <a 
-                href="#contact" 
+                href="https://calendly.com/excellentfolorunsho/chat-with-excellent?month=2025-07"
                 className="btn-coral inline-flex items-center gap-2"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Schedule a Call <Calendar className="w-4 h-4" />
               </a>
               <a 
-                href="/cv" 
-                target="_blank"
+                href="https://drive.google.com/file/d/13KHpCK93rTW9nuGYs76FSYxGdQ7cpmed/view?usp=sharing"
                 className="btn-outline-coral inline-flex items-center gap-2"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Download CV <Download className="w-4 h-4" />
               </a>
