@@ -60,6 +60,10 @@ const Work = () => {
           {workExperience.map((work, index) => {
             const Icon = work.icon;
             const colorClass = work.color === 'coral' ? 'coral' : work.color === 'blue' ? 'electric-blue' : 'mixed';
+            // Determine if this card should have an external link
+            const isTFS = work.title === "The Family of Students (TFS)";
+            const isMovam = work.title === "Movam Application";
+            const externalLink = isTFS ? "https://thefamilyofstudents.com" : isMovam ? "https://movam.io" : null;
             
             return (
               <div 
@@ -113,11 +117,18 @@ const Work = () => {
                     ))}
                   </div>
 
-                  {/* Link */}
-                  <div className="flex items-center gap-2 text-coral group-hover:gap-3 transition-all duration-300">
-                    <span className="font-medium">Learn more</span>
-                    <ExternalLink className="w-4 h-4" />
-                  </div>
+                  {/* External Link Icon for TFS and Movam only */}
+                  {externalLink && (
+                    <a
+                      href={externalLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-coral group-hover:gap-3 transition-all duration-300"
+                      tabIndex={0}
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                    </a>
+                  )}
                 </div>
               </div>
             );
