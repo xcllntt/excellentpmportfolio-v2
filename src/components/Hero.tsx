@@ -60,12 +60,14 @@ const Hero = () => {
               >
                 Download CV <Download className="w-4 h-4" />
               </a>
+              {/*
               <a 
                 href="mailto:hello@example.com"
                 className="btn-blue inline-flex items-center gap-2"
               >
                 Get in Touch <ExternalLink className="w-4 h-4" />
               </a>
+              */}
             </div>
             
             {/* Quick Links */}
