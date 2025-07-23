@@ -4,16 +4,16 @@ const workExperience = [
   {
     title: "The Family of Students (TFS)",
     role: "Founder",
-    description: "Built TFS from scratch into the largest online community of university students with over 30,000 university students across 28+ universities.",
+    description: "Built TFS from scratch into the largest online community of university students in Nigeria with over 30,000 university students across 28+ universities.",
     icon: Users,
     color: "coral",
     stats: "30,000+ students | 28+ universities",
-    tags: ["Community Building", "Growth", "Leadership"]
+    tags: ["Product Strategy", "Community Building", "Growth", "Leadership"]
   },
   {
-    title: "Movam Application v2",
+    title: "Movam Application",
     role: "Product Manager",
-    description: "Managed the launch of the second version of movam's application, enabling logistics business owners to manage their drivers, fleet, and entire operations more efficiently.",
+    description: "Managed the launch of the second version (v2) of movam's application, enabling logistics business owners to manage their drivers, fleet, and entire operations more efficiently.",
     icon: TrendingUp,
     color: "blue",
     stats: "40% increase in product adoption",
@@ -22,7 +22,7 @@ const workExperience = [
   {
     title: "Facile (FutaExpress)",
     role: "Product Builder",
-    description: "Built Facile, an application that helped students of FUTA order food from neighboring restaurants, solving real campus dining challenges.",
+    description: "Built Facile (formerly FUTAExpress), a food-ordering app that helped FUTA students order from nearby restaurants at a time when the only options were to go in person or rely on favors.",
     icon: Zap,
     color: "mixed",
     stats: "Campus-wide adoption",
@@ -30,7 +30,7 @@ const workExperience = [
   },
   {
     title: "FutaOrders",
-    role: "Product Collaborator",
+    role: ,
     description: "Collaborated towards building FutaOrders, an e-commerce product that helped business owners in FUTA sell more efficiently.",
     icon: ShoppingCart,
     color: "coral",
@@ -50,7 +50,7 @@ const Work = () => {
             Turning <span className="text-gradient-coral">Ideas</span> into Impact
           </h2>
           <p className="text-body-large text-secondary max-w-3xl mx-auto">
-            From founding Nigeria's largest student community to launching B2B SaaS products, 
+            From founding one of Nigeria's largest student communities to building products for students of his university, managing SaaS products, and tinkering with AI, 
             I've consistently delivered results that matter.
           </p>
         </div>
