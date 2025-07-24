@@ -174,7 +174,7 @@ const Articles = () => {
             <div className="space-y-4">
               <h3 className="text-heading-3 text-primary">Stay Updated</h3>
               <p className="text-body text-secondary max-w-md">
-                I often share my reflections and personal stories that explore the subtleties of daily life on my Substack. This has nothing to do with Product, so it's fine if you're not interested
+                I often share my reflections and personal stories that explore the subtleties of daily life on my Substack.<br />This has nothing to do with Product, so it's fine if you're not interested
               </p>
               <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
                 {/*
