@@ -33,7 +33,7 @@ const articles = [
     title: "Product innovation meets brags",
     subtitle: "HelloCV Can Build Trust Back Into Professional Resumes",
     category: "Product Review",
-    readTime: "4 min read",
+    readTime: "5 min read",
     featured: false
   }
 ];
@@ -49,7 +49,7 @@ const Articles = () => {
             Product starts, not with what you build, but <span className="text-gradient-blue">how you think</span>
           </h2>
           <p className="text-body-large text-secondary max-w-3xl mx-auto">
-            Have a glance at the excellent way of thinking about product below. Insights from building products 
+            Have a glance at the <b><i>Excellent</i></b> way of thinking about product below. Insights from building products 
             and understanding what makes them successful.
           </p>
         </div>
