@@ -6,35 +6,40 @@ const articles = [
     subtitle: "What do you do when you create a product 'abc' to do 'xyz', but users see 'abc' and decide to do '123'?",
     category: "Product Strategy",
     readTime: "5 min read",
-    featured: true
+    featured: true,
+    url: "https://medium.com/@xcllntt/users-intent-vs-product-managers-intent-afc643d783b4"
   },
   {
     title: "Ride-hailing is a mess, this product fixes it",
     subtitle: "What If You Could Book Any Ride from One App?",
     category: "Product Innovation",
     readTime: "7 min read",
-    featured: false
+    featured: false,
+    url: "https://medium.com/@xcllntt/what-if-you-could-book-any-ride-from-one-app-b7a7800675c1"
   },
   {
     title: "Should you listen to your users or spy on your competitors?",
     subtitle: "The best route to shipping new features is to listen to the customers, but what if you follow your users' concerns, and it leads you to your competitor's features?",
     category: "Product Development",
     readTime: "6 min read",
-    featured: true
+    featured: true,
+    url: "https://medium.com/@xcllntt/listen-to-your-users-or-spy-on-your-competitors-9d97f27b1522"
   },
   {
     title: "Disruption: How inDrive's product is shaking up the ride-hailing market",
     subtitle: "A product review that highlights how inDrive's product strategy facilitated their evident disruption.",
     category: "Case Study",
     readTime: "8 min read",
-    featured: false
+    featured: false,
+    url: "https://medium.com/@xcllntt/disruption-a-product-review-of-the-indrive-app-2e52a6fc1708"
   },
   {
     title: "Product innovation meets brags",
     subtitle: "HelloCV Can Build Trust Back Into Professional Resumes",
     category: "Product Review",
     readTime: "5 min read",
-    featured: false
+    featured: false,
+    url: "https://medium.com/@xcllntt/hellocv-can-build-trust-back-into-professional-resumes-52a1dc458515"
   }
 ];
 
@@ -56,7 +61,13 @@ const Articles = () => {
 
         {/* Featured Article */}
         <div className="mb-12">
-          <div className="card-featured p-8 md:p-12 bg-gradient-to-br from-surface to-coral/5 border-coral/20">
+          <a
+            href={articles[0].url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block card-featured p-8 md:p-12 bg-gradient-to-br from-surface to-coral/5 border-coral/20 hover:scale-105 transition-transform duration-300"
+            style={{ textDecoration: 'none' }}
+          >
             <div className="grid lg:grid-cols-3 gap-8 items-center">
               <div className="lg:col-span-2 space-y-6">
                 <div className="flex items-center gap-4">
@@ -78,12 +89,9 @@ const Articles = () => {
                   </p>
                 </div>
                 
-                <a 
-                  href="#" 
-                  className="inline-flex items-center gap-2 text-coral font-semibold hover:gap-3 transition-all duration-300"
-                >
+                <span className="inline-flex items-center gap-2 text-coral font-semibold hover:gap-3 transition-all duration-300">
                   Read Article <ArrowRight className="w-4 h-4" />
-                </a>
+                </span>
               </div>
               
               <div className="relative">
@@ -98,16 +106,19 @@ const Articles = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
 
         {/* Articles Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {articles.slice(1).map((article, index) => (
-            <article 
+            <a
               key={article.title}
-              className="card-elegant group cursor-pointer hover:shadow-coral/20"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              href={article.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-elegant group cursor-pointer hover:shadow-coral/20 block"
+              style={{ animationDelay: `${index * 0.1}s`, textDecoration: 'none' }}
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -119,7 +130,6 @@ const Articles = () => {
                     <span className="text-sm">{article.readTime}</span>
                   </div>
                 </div>
-                
                 <div className="space-y-3">
                   <h3 className="text-xl font-bold text-primary group-hover:text-coral transition-colors duration-300">
                     {article.title}
@@ -128,13 +138,12 @@ const Articles = () => {
                     {article.subtitle}
                   </p>
                 </div>
-                
                 <div className="flex items-center gap-2 text-coral group-hover:gap-3 transition-all duration-300">
                   <span className="font-medium">Read more</span>
                   <ArrowRight className="w-4 h-4" />
                 </div>
               </div>
-            </article>
+            </a>
           ))}
           {/* Read More Card */}
           <a
