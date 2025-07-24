@@ -136,6 +136,27 @@ const Articles = () => {
               </div>
             </article>
           ))}
+          {/* Read More Card */}
+          <a
+            href="https://medium.com/@xcllntt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-featured group cursor-pointer transform hover:scale-105 transition-all duration-300 flex flex-col justify-between"
+            style={{ minHeight: '260px' }}
+          >
+            <div className="space-y-4">
+              <h3 className="text-heading-3 text-primary group-hover:text-coral transition-colors duration-300">
+                Read more product articles from <b><i>Excellent</i></b>
+              </h3>
+              <p className="text-body text-secondary">
+                Explore more insights, stories, and lessons on product management, growth, and building impactful products on my Medium profile.
+              </p>
+            </div>
+            <div className="flex items-center gap-2 text-coral group-hover:gap-3 transition-all duration-300 mt-4">
+              <span className="font-medium">Visit Medium</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 7l-10 10M7 7h10v10" /></svg>
+            </div>
+          </a>
         </div>
 
         {/* Newsletter CTA */}
