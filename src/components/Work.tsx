@@ -36,16 +36,6 @@ const workExperience = [
     color: "coral",
     stats: "Enhanced business efficiency",
     tags: ["E-commerce", "SME Tools", "Collaboration"]
-  },
-  // New AI Side Projects card
-  {
-    title: "AI Side Projects",
-    role: "Builder",
-    description: "Currently building some AI-powered products, exploring the intersection of LLMs, automation, and real-world utility. Focused on rapid prototyping, user testing, and applying AI technologies to solve meaningful problems.\nStay tuned. Don’t blink. 👨🏾‍🍳",
-    icon: Zap,
-    color: "mixed",
-    stats: "🚧 Stealth mode ",
-    tags: ["AI/ML", "Product Innovation"]
   }
 ];
 
