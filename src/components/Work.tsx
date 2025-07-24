@@ -11,13 +11,13 @@ const workExperience = [
     tags: ["Product Strategy", "Community Building", "Growth", "Leadership"]
   },
   {
-    title: "Movam Application",
+    title: "Movam",
     role: "Product Manager",
     description: "Managed the launch of the second version (v2) of movam's application, enabling logistics business owners to manage their drivers, fleet, and entire operations more efficiently.",
     icon: TrendingUp,
     color: "blue",
     stats: "40% increase in product adoption",
-    tags: ["Product Launch", "B2B SaaS", "Operations"]
+    tags: ["Product Launch", "Product Development", "B2B SaaS", "Logistics"]
   },
   {
     title: "Facile (FutaExpress)",
@@ -144,7 +144,7 @@ const Work = () => {
             href="#contact" 
             className="btn-blue inline-flex items-center gap-2"
           >
-            Let's Talk Product Strategy
+            Let's Talk
             <ExternalLink className="w-4 h-4" />
           </a>
         </div>
