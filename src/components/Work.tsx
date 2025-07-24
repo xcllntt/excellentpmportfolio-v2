@@ -1,4 +1,4 @@
-import { ExternalLink, Users, TrendingUp, Zap, ShoppingCart } from "lucide-react";
+import { ExternalLink, Users, TrendingUp, Zap, ShoppingCart, Bike } from "lucide-react";
 
 const workExperience = [
   {
@@ -23,7 +23,7 @@ const workExperience = [
     title: "Facile (FutaExpress)",
     role: "Product Builder",
     description: "Built Facile (formerly FUTAExpress), a food-ordering app that helped FUTA students order from nearby restaurants at a time when the only options were to go in person or rely on favors.",
-    icon: Zap,
+    icon: Bike,
     color: "mixed",
     stats: "Campus-wide adoption",
     tags: ["Mobile App", "Food Tech", "Student Experience"]
