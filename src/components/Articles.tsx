@@ -146,10 +146,10 @@ const Articles = () => {
           >
             <div className="space-y-4">
               <h3 className="text-heading-3 text-primary group-hover:text-coral transition-colors duration-300">
-                Read more product articles from <b><i>Excellent</i></b>
+                Read more product articles from Excellent
               </h3>
               <p className="text-body text-secondary">
-                Explore more insights, stories, and lessons on product management, growth, and building impactful products on my Medium profile.
+                Interesting things I notice about software products. Insights from building products, and thoughts from my Product Management journey.
               </p>
             </div>
             <div className="flex items-center gap-2 text-coral group-hover:gap-3 transition-all duration-300 mt-4">
