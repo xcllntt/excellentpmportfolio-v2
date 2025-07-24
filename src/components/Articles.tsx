@@ -172,7 +172,7 @@ const Articles = () => {
         <div className="mt-16 text-center">
           <div className="card-featured inline-block p-8 bg-gradient-to-r from-electric-blue/5 to-coral/5 border-electric-blue/20">
             <div className="space-y-4">
-              <h3 className="text-heading-3 text-primary">Stay Updated</h3>
+              <h3 className="text-heading-3 text-primary">un-product-ive</h3>
               <p className="text-body text-secondary max-w-md">
                 I often share my reflections and personal stories that explore the subtleties of daily life on my Substack.<br />This has nothing to do with Product, so it's fine if you're not interested
               </p>
