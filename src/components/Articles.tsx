@@ -177,11 +177,13 @@ const Articles = () => {
                 I often share my reflections and personal stories that explore the subtleties of daily life on my Substack. This has nothing to do with Product, so it's fine if you're not interested
               </p>
               <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-                // <input 
-                //   type="email" 
-                //   placeholder="Enter your email"
-                //   className="flex-1 px-4 py-3 border border-border rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-300"
-                // />
+                {/*
+                <input 
+                  type="email" 
+                  placeholder="Enter your email"
+                  className="flex-1 px-4 py-3 border border-border rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-300"
+                />
+                */}
                 <button className="btn-blue whitespace-nowrap">
                   I'm interested, sign me up!
                 </button>
