@@ -48,7 +48,7 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 pt-2">
               <a 
-                href="https://calendly.com/excellentfolorunsho/chat-with-excellent?month=2025-07"
+                href="https://calendly.com/excellentfolorunsho/chat-with-excellent"
                 className="btn-coral inline-flex items-center gap-2"
                 target="_blank"
                 rel="noopener noreferrer"
