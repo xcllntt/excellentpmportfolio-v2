@@ -184,9 +184,15 @@ const Articles = () => {
                   className="flex-1 px-4 py-3 border border-border rounded-xl focus:ring-2 focus:ring-electric-blue focus:border-transparent outline-none transition-all duration-300"
                 />
                 */}
-                <button className="btn-blue whitespace-nowrap">
-                  I'm interested, sign me up!
-                </button>
+                  <a
+                    href="https://thisisexcellent.substack.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-blue whitespace-nowrap mx-auto text-center"
+                    style={{ display: 'block' }}
+                  >
+                    I'm interested, sign me up!
+                  </a>
               </div>
             </div>
           </div>
