@@ -36,6 +36,16 @@ const workExperience = [
     color: "coral",
     stats: "Enhanced business efficiency",
     tags: ["E-commerce", "SME Tools", "Collaboration"]
+  },
+  // New AI Side Projects card
+  {
+    title: "AI Side Projects",
+    role: "Builder",
+    description: "Currently building some AI-powered products, exploring the intersection of LLMs, automation, and real-world utility. Focused on rapid prototyping, user testing, and applying AI technologies to solve meaningful problems.\nStay tuned. Don’t blink. 👨🏾‍🍳",
+    icon: Zap,
+    color: "mixed",
+    stats: "🚧 Stealth mode ",
+    tags: ["AI/ML", "Product Innovation"]
   }
 ];
 
@@ -133,6 +143,42 @@ const Work = () => {
               </div>
             );
           })}
+        </div>
+
+        {/* Centered AI Side Projects card below the grid */}
+        <div className="flex justify-center mt-8">
+          <div 
+            className={`card-featured group cursor-pointer transform hover:scale-105 transition-all duration-300 w-full max-w-md`}
+            style={{ animationDelay: `${workExperience.length * 0.2}s` }}
+          >
+            {/* Icon */}
+            <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl mb-6 bg-gradient-mixed`}>
+              <Zap className="w-6 h-6 text-white" />
+            </div>
+            {/* Content */}
+            <div className="space-y-4">
+              <div>
+                <h3 className="text-heading-3 text-primary group-hover:text-coral transition-colors duration-300">
+                  AI Side Projects
+                </h3>
+                <p className="text-caption text-electric-blue font-semibold">
+                  Builder
+                </p>
+              </div>
+              <p className="text-body text-secondary">
+                Currently building some AI-powered products, exploring the intersection of LLMs, automation, and real-world utility. Focused on rapid prototyping, user testing, and applying AI technologies to solve meaningful problems.<br />Stay tuned. Don’t blink. 👨🏾‍🍳
+              </p>
+              {/* Stats */}
+              <div className="inline-block px-4 py-2 rounded-lg text-sm font-semibold bg-gradient-mixed/10 text-coral">
+                🚧 Stealth mode 
+              </div>
+              {/* Tags */}
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-muted text-text-secondary text-sm rounded-full">AI/ML</span>
+                <span className="px-3 py-1 bg-muted text-text-secondary text-sm rounded-full">Product Innovation</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Bottom CTA */}
