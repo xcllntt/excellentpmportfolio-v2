@@ -84,9 +84,9 @@ const Footer = () => {
               © {currentYear} Product Manager & Builder. All rights reserved.
             </p>
             <div className="flex items-center gap-2 text-primary-foreground/60 text-sm">
-              <span>Built with</span>
-              <Heart className="w-4 h-4 text-coral" />
-              <span>and modern web technologies</span>
+              <span>Built by Excellent using</span>
+              {/* <Heart className="w-4 h-4 text-coral" /> */}
+              <span>Lovable, Cursor, and other modern web technologies</span>
             </div>
           </div>
         </div>
