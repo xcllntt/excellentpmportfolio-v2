@@ -24,7 +24,7 @@ const Contact = () => {
 
             {/* Contact Methods */}
             <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
-              <a href="mailto:hello@example.com" className="card-elegant flex flex-col items-center gap-4 p-6 hover:border-coral/30 hover:shadow-coral/20 transition-all duration-300 group text-center">
+              <a href="mailto:excellentfolrunsho@gmail.com" className="card-elegant flex flex-col items-center gap-4 p-6 hover:border-coral/30 hover:shadow-coral/20 transition-all duration-300 group text-center">
                 <div className="w-12 h-12 bg-gradient-coral rounded-xl flex items-center justify-center">
                   <Mail className="w-6 h-6 text-white" />
                 </div>
@@ -36,7 +36,7 @@ const Contact = () => {
                 </div>
               </a>
 
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" className="card-elegant flex flex-col items-center gap-4 p-6 hover:border-electric-blue/30 hover:shadow-blue/20 transition-all duration-300 group text-center">
+              <a href="https://linkedin.com/in/xcllntt" target="_blank" className="card-elegant flex flex-col items-center gap-4 p-6 hover:border-electric-blue/30 hover:shadow-blue/20 transition-all duration-300 group text-center">
                 <div className="w-12 h-12 bg-gradient-blue rounded-xl flex items-center justify-center">
                   <Linkedin className="w-6 h-6 text-white" />
                 </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                 </div>
               </a>
 
-              <a href="https://calendly.com/yourprofile" target="_blank" className="card-elegant flex flex-col items-center gap-4 p-6 hover:border-coral/30 hover:shadow-coral/20 transition-all duration-300 group text-center md:col-span-2">
+              <a href="https://calendly.com/excellentfolorunsho/chat-with-excellent" target="_blank" className="card-elegant flex flex-col items-center gap-4 p-6 hover:border-coral/30 hover:shadow-coral/20 transition-all duration-300 group text-center md:col-span-2">
                 <div className="w-12 h-12 bg-gradient-mixed rounded-xl flex items-center justify-center">
                   <Calendar className="w-6 h-6 text-white" />
                 </div>
@@ -56,7 +56,7 @@ const Contact = () => {
                   <h4 className="font-semibold text-primary group-hover:text-coral transition-colors duration-300">
                     Schedule a Call
                   </h4>
-                  <p className="text-secondary">Book a 20-minute chat</p>
+                  <p className="text-secondary">Book a 15-minute chat</p>
                 </div>
               </a>
             </div>
