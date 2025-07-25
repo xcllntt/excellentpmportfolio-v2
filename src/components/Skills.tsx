@@ -4,13 +4,13 @@ const skills = [{
   icon: Target,
   color: "coral",
   description: "I drive products with a clear vision, ensuring alignment with business goals through user research, market insights, and data-driven decisions. I prioritize effectively, balancing impact and feasibility while keeping execution on track with roadmap planning and key metrics to measure success.",
-  highlights: ["User Research & Market Analysis", "Data-Driven Decision Making", "Roadmap Planning & Prioritization", "Impact vs Feasibility Assessment"]
+  highlights: ["User Research & Market Analysis", "Data-Driven Decision Making", "Roadmapping & Prioritization"]
 }, {
   title: "Collaboration & Communication",
   icon: MessageSquare,
   color: "blue",
   description: "I excel at bridging the gap between engineering, design, and business teams, ensuring alignment through clear PRDs, structured communication, and strong stakeholder management. Whether presenting decisions, handling trade-offs, or negotiating priorities, I keep teams focused and moving forward.",
-  highlights: ["Cross-functional Team Leadership", "Clear PRD Documentation", "Stakeholder Management", "Trade-off Negotiation"]
+  highlights: ["Cross-functional Team Leadership", "Clear PRDs & Documentation", "Stakeholder Management"]
 }, {
   title: "Technical Fluency & Growth",
   icon: Code2,
