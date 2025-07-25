@@ -39,7 +39,7 @@ const Hero = () => {
                 <span className="text-gradient-mixed"> real-world problems</span>
               </h1>
               <p className="text-body-large text-secondary max-w-2xl">
-                Product Manager with a founder's fire and a builder's mindset— Founder of TFS (The Family of Students), 
+              Product Manager with a founder’s mindset and a passion for building. Founded TFS (The Family of Students), 
                 Nigeria's largest community for university students. Now builds software products that solve real-world 
                 problems at fast-paced startups.
               </p>
