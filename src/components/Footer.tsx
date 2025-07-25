@@ -23,13 +23,13 @@ const Footer = () => {
             
             {/* Social Links */}
             <div className="flex items-center gap-4">
-              <a href="mailto:hello@example.com" className="w-10 h-10 bg-coral/20 hover:bg-coral text-coral hover:text-white rounded-lg flex items-center justify-center transition-all duration-300">
+              <a href="mailto:excellentfolorunsho@gmail.com" className="w-10 h-10 bg-coral/20 hover:bg-coral text-coral hover:text-white rounded-lg flex items-center justify-center transition-all duration-300">
                 <Mail className="w-5 h-5" />
               </a>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" className="w-10 h-10 bg-electric-blue/20 hover:bg-electric-blue text-electric-blue hover:text-white rounded-lg flex items-center justify-center transition-all duration-300">
+              <a href="https://linkedin.com/in/xcllntt" target="_blank" className="w-10 h-10 bg-electric-blue/20 hover:bg-electric-blue text-electric-blue hover:text-white rounded-lg flex items-center justify-center transition-all duration-300">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="https://calendly.com/yourprofile" target="_blank" className="w-10 h-10 bg-coral/20 hover:bg-coral text-coral hover:text-white rounded-lg flex items-center justify-center transition-all duration-300">
+              <a href="https://calendly.com/excellentfolorunsho/chat-with-excellent" target="_blank" className="w-10 h-10 bg-coral/20 hover:bg-coral text-coral hover:text-white rounded-lg flex items-center justify-center transition-all duration-300">
                 <Calendar className="w-5 h-5" />
               </a>
               
@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/60 text-sm">
-              © {currentYear} Product Manager & Builder. All rights reserved.
+              © {currentYear} Excellent Kayode-Folorunsho. All rights reserved.
             </p>
             <div className="flex items-center gap-2 text-primary-foreground/60 text-sm">
               <span>Built by Excellent using</span>
