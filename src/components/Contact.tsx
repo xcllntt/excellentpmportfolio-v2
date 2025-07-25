@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="text-center mb-16 space-y-4 animate-fade-in-up">
           <p className="text-subheading text-coral">Get In Touch</p>
           <h2 className="text-heading-1 text-primary">
-            Let's Build Something <span className="text-gradient-blue">Amazing</span>
+            Let's <span className="text-gradient-blue">Build!</span>
           </h2>
           
         </div>
