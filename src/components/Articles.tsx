@@ -49,7 +49,7 @@ const Articles = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16 space-y-4 animate-fade-in-up">
-          <p className="text-subheading text-coral">Product Insights</p>
+          <p className="text-subheading text-coral">Product Articles</p>
           <h2 className="text-heading-1 text-primary">
             Product starts, not with what you build, but <span className="text-gradient-blue">how you think</span>
           </h2>
