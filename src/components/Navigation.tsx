@@ -31,7 +31,8 @@ const Navigation = () => {
           <a href="#" className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-300">
             <img 
               src="https://i.postimg.cc/1tqnX1Fb/Excellent-Kayode-Folorunsho-Professional-Portrait-1.jpg" 
-              alt="Excellent Kayode-Folorunsho - Product Manager & Builder"
+              alt="Excellent Kayode-Folorunsho - Product Manager & Builder - Professional Headshot"
+              loading="lazy"
               className="w-10 h-10 rounded-full object-cover border-2 border-coral/20"
             />
             <div className="hidden sm:block">

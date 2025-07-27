@@ -26,7 +26,8 @@ const Hero = () => {
               <div className="flex items-center gap-6 mb-4">
                 <img 
                   src="https://i.postimg.cc/1tqnX1Fb/Excellent-Kayode-Folorunsho-Professional-Portrait-1.jpg" 
-                  alt="Excellent Kayode-Folorunsho - Product Manager & Builder"
+                  alt="Excellent Kayode-Folorunsho - Product Manager & Builder - Professional Headshot"
+                  loading="lazy"
                   className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover border-4 border-coral/20 shadow-coral flex-shrink-0"
                 />
                 <div>
