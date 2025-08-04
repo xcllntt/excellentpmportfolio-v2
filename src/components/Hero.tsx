@@ -57,7 +57,7 @@ const Hero = () => {
                 Schedule a Call <Calendar className="w-4 h-4" />
               </a>
               <a 
-                href="https://drive.google.com/file/d/13KHpCK93rTW9nuGYs76FSYxGdQ7cpmed/view?usp=sharing"
+                href="https://drive.google.com/file/d/1afwr2ARET_YXLgxBqyAYsvP_yob0rCuV/view?usp=sharing"
                 className="btn-outline-coral inline-flex items-center gap-2"
                 target="_blank"
                 rel="noopener noreferrer"
