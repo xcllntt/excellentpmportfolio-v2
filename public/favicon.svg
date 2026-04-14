@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="buildGradient" x1="16" y1="18" x2="48" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF7A59"/>
+      <stop offset="52%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#0F172A"/>
+  <g transform="translate(16 15)">
+    <path d="M16 0L30 8V24L16 32L2 24V8L16 0Z" fill="url(#buildGradient)"/>
+    <path d="M16 0V16L30 8L16 0Z" fill="#FFFFFF" fill-opacity="0.22"/>
+    <path d="M16 16V32L30 24V8L16 16Z" fill="#000000" fill-opacity="0.14"/>
+    <path d="M16 16L2 8V24L16 32V16Z" fill="#FFFFFF" fill-opacity="0.12"/>
+    <path d="M16 0L30 8L16 16L2 8L16 0Z" stroke="#F8FAFC" stroke-opacity="0.9" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M30 8V24L16 32L2 24V8" stroke="#F8FAFC" stroke-opacity="0.78" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M16 16V32" stroke="#F8FAFC" stroke-opacity="0.78" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>
